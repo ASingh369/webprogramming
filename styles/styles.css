@@ -14,6 +14,21 @@
   color: #00ff87;
 }
 
+.text-success2 {
+  color: #2aab6a;
+}
+
+.bg-table {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dotted {
+  border-bottom: 1px dotted #000;
+}
+.dotted2 {
+  border-bottom: 1px dotted white;
+}
+
 .active2 {
   background-color: white;
   color: black;
