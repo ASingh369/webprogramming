@@ -14,6 +14,11 @@
   color: #00ff87;
 }
 
+.active2 {
+  background-color: white;
+  color: black;
+}
+
 @media (max-width: 767.5px) {
   .bg-sm-primary {
     background-color: #00ff87;
@@ -45,6 +50,11 @@
   }
 }
 
+@media (min-width: 768px) {
+  .lineheight > li > a {
+    line-height: 0px;
+  }
+}
 .img-fluid {
   height: 120px;
   width: 110px;
