@@ -136,7 +136,7 @@
   bottom: 0;
   background: white;
   text-align: center;
-  padding-top: 1.4rem;
+  padding-top: 30%;
 }
 .code.active:before {
   content: "Code";
@@ -147,7 +147,7 @@
   bottom: 0;
   background: white;
   text-align: center;
-  padding-top: 1.4rem;
+  padding-top: 30%;
 }
 .info.active:before {
   content: "Info";
@@ -158,5 +158,5 @@
   bottom: 0;
   background: white;
   text-align: center;
-  padding-top: 1.4rem;
+  padding-top: 30%;
 }
