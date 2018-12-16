@@ -29,7 +29,7 @@
   border-bottom: 1px dotted white;
 }
 
-.active2 {
+.active {
   background-color: white;
   color: black;
 }
@@ -100,4 +100,63 @@
   .img-fluid2 {
     display: none;
   }
+}
+/*
+.active {
+  background: green;
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bg-primary3 .active {
+  width: 100%;
+  margin-left: -5px;
+  margin-right: 50px;
+  background: green;
+}*/
+
+.parent {
+  background: #02894e;
+  position: relative;
+}
+.active li {
+  /* you want to see the menu :) */
+  position: relative;
+  z-index: 1;
+}
+.status.active:before {
+  content: "Status";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  text-align: center;
+  padding-top: 1.4rem;
+}
+.code.active:before {
+  content: "Code";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  text-align: center;
+  padding-top: 1.4rem;
+}
+.info.active:before {
+  content: "Info";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  text-align: center;
+  padding-top: 1.4rem;
 }

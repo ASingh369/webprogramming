@@ -3,7 +3,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Web Programming</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -62,7 +68,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item">
-                        <a href="#" class="nav-link active">Home</a>
+                        <a href="#" class="nav-link text-light">Home</a>
                       </li>
                       <li class="nav-item">
                         <a href="#" class="nav-link">Code</a>
@@ -102,127 +108,201 @@
 
     <nav
       class="navbar navbar-expand sticky-top navbar-dark bg-primary2 pb-0 pl-sm-3 pl-0"
+      id="main-nav"
     >
       <div class="container">
         <ul class="navbar-nav lineheight mt-0">
           <li
-            class="nav-item bg-primary3 active2 py-1 px-1 px-md-2 px-lg-3 px-xl-4"
+            class="nav-item parent bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4"
           >
-            <a href="#" class="nav-link text-dark">Home</a>
+            <a href="#status" class="nav-link text-dark status">Status</a>
           </li>
           <div class="mx-xl-5 mx-lg-4 mx-md-3 mx-sm-2 mx-none"></div>
-          <li class="nav-item bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4">
-            <a href="#" class="nav-link">Code</a>
+          <li
+            class="nav-item parent bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4"
+          >
+            <a href="#code" class="nav-link text-dark code">Code</a>
           </li>
           <div class="mx-xl-5 mx-lg-4 mx-md-3 mx-sm-2 mx-none"></div>
-          <li class="nav-item bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4">
-            <a href="#" class="nav-link">Q/A</a>
+          <li
+            class="nav-item parent bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4"
+          >
+            <a href="#" class="nav-link text-dark">Q/A</a>
           </li>
           <div class="mx-xl-5 mx-lg-4 mx-md-3 mx-sm-2 mx-none"></div>
-          <li class="nav-item bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4">
-            <a href="#" class="nav-link">Tutorials</a>
+          <li
+            class="nav-item  parent bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4"
+          >
+            <a href="#" class="nav-link text-dark">Tutorials</a>
           </li>
           <div class="mx-xl-5 mx-lg-4 mx-md-3 mx-sm-2 mx-none"></div>
-          <li class="nav-item bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4">
-            <a href="#" class="nav-link">YourAccount</a>
+          <li
+            class="nav-item parent bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4"
+          >
+            <a href="#info" class="nav-link text-dark info">Info</a>
           </li>
         </ul>
       </div>
     </nav>
     <br />
-    <div class="container my-3 bg-light">
-      <p>
-        You are logged in as <span class="font-weight-bold">Hazra Imran</span>
-      </p>
-    </div>
+    <section id="status">
+      <div class="container my-3 bg-light">
+        <p>
+          You are logged in as <span class="font-weight-bold">Hazra Imran</span>
+        </p>
+      </div>
+      <br />
+      <div class="container"><h4>Status</h4></div>
+
+      <div class="container px-0">
+        <table class="table table-borderless">
+          <thead>
+            <tr class="">
+              <td class="text-muted text-monospace">
+                <span class="dotted">Day</span>
+              </td>
+              <td class="text-muted text-monospace dotted">
+                <span class="dotted">Posts Added </span>
+              </td>
+              <td class="text-muted text-monospace dotted">
+                <span class="dotted"> Status </span>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">Monday 17 December</td>
+              <td class="text-success2">12</td>
+              <td class="text-success2">All checked</td>
+            </tr>
+            <tr class="bg-table">
+              <td>Tuesday 18 December</td>
+              <td class="text-success2">20</td>
+              <td class="text-success2">All checked</td>
+            </tr>
+            <tr>
+              <td>Wednesday 19 December</td>
+              <td class="text-success2">10</td>
+              <td class="text-success2">All checked</td>
+            </tr>
+            <tr class="bg-primary1">
+              <td class="text-light"><span class="dotted2">Today </span></td>
+              <td class="text-primary2">3</td>
+              <td class="text-primary2">All checked</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
     <br />
-    <div class="container"><h4>Status</h4></div>
 
-    <div class="container px-0">
-      <table class="table table-borderless">
-        <thead>
-          <tr class="">
-            <td class="text-muted text-monospace">
-              <span class="dotted">Day</span>
-            </td>
-            <td class="text-muted text-monospace dotted">
-              <span class="dotted">Posts Added </span>
-            </td>
-            <td class="text-muted text-monospace dotted">
-              <span class="dotted"> Status </span>
-            </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td scope="row">Monday 17 December</td>
-            <td class="text-success2">12</td>
-            <td class="text-success2">All checked</td>
-          </tr>
-          <tr class="bg-table">
-            <td>Tuesday 18 December</td>
-            <td class="text-success2">20</td>
-            <td class="text-success2">All checked</td>
-          </tr>
-          <tr>
-            <td>Wednesday 19 December</td>
-            <td class="text-success2">10</td>
-            <td class="text-success2">All checked</td>
-          </tr>
-          <tr class="bg-primary1">
-            <td class="text-light"><span class="dotted2">Today </span></td>
-            <td class="text-primary2">3</td>
-            <td class="text-primary2">All checked</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <section id="code">
+      <div class="bg-light" style="height: 60px;"></div>
 
-    <br />
+      <div class="container pl-0">
+        <p class="font-weight-bold">Code together as a team</p>
+      </div>
 
-    <div class="container bg-primary2">
-      <div class="jumbotron bg-primary2 jumbotron-fluid py-3 mb-0">
-        <p class="pt-0"><span class="dotted">Account Info</span></p>
-        <div class="container">
-          <h1 class="display-5">Hazra Imran</h1>
-          <button class="btn bg-primary1 text-light px-5">
-            Manage Account
-          </button>
+      <div class="container bg-primary2 px-sm-2 px-0">
+        <div class="row">
+          <div class="col-md-6 col-12 " style="height: 35%;">
+            <a href="https://repl.it/languages/html"
+              ><img
+                class="py-sm-2 py-0"
+                height="100%"
+                width="100%"
+                src="repl.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-md-6 col-12 pt-3 px-md-0 px-4 ">
+            <h2 class="Display-5 pr-4">Create projects in group</h2>
+            <p class="font-weight-light pr-5 mb-0">
+              Repl.it offers real-time code collaboration feature.
+            </p>
+            <p class="font-weight-light pr-5 ">
+              Code and chat with friends in realtime
+            </p>
+            <a
+              href="#"
+              class="video text-primary1"
+              data-video="https://www.youtube.com/embed/ZZ3yPLNeiqs"
+              data-toggle="modal"
+              data-target="#videoModal"
+              ><i class="fas fa-play fa-1x text-primary1"></i> See More
+            </a>
+          </div>
         </div>
       </div>
-      <div class="row bg-primary1">
-        <div class="col-lg-2 col-md-4 col-6 border border-light">
-          <p class="text-primary2 text-center pt-2 mb-0">Projects Posted</p>
-          <p class="text-light text-center">2</p>
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 border border-light">
-          <p class="text-primary2 text-center pt-2 mb-0">Total Posts</p>
-          <p class="text-light text-center">10</p>
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 border border-light">
-          <p class="text-primary2 text-center pt-2 mb-0">Total Upvotes</p>
-          <p class="text-light text-center">22</p>
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 border border-light">
-          <p class="text-primary2 text-center pt-2 mb-0">Date Joined</p>
-          <p class="text-light text-center">2018-10-02</p>
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 border border-light">
-          <p class="text-primary2 text-center pt-2 mb-0">Posts Viewed</p>
-          <p class="text-light text-center">144</p>
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 border border-light">
-          <p class="text-primary2 text-center pt-2 mb-0">Email</p>
-          <p class="text-light text-center">hazra@gmail.com</p>
+
+      <!-- VIDEO MODAL -->
+      <div class="modal fade" id="videoModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="close" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+              <iframe
+                src=""
+                frameborder="0"
+                height="350"
+                width="100%"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    <br />
+
+    <section id="info">
+      <div class="bg-light" style="height: 60px;"></div>
+      <div class="container bg-primary2">
+        <div class="jumbotron bg-primary2 jumbotron-fluid py-3 mb-0">
+          <p class="pt-0"><span class="dotted">Account Info</span></p>
+          <div class="container">
+            <h1 class="display-5">Hazra Imran</h1>
+            <button class="btn bg-primary1 text-light px-5">
+              Manage Account
+            </button>
+          </div>
+        </div>
+        <div class="row bg-primary1">
+          <div class="col-lg-2 col-md-4 col-6 border border-light">
+            <p class="text-primary2 text-center pt-2 mb-0">Projects Posted</p>
+            <p class="text-light text-center">2</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 border border-light">
+            <p class="text-primary2 text-center pt-2 mb-0">Total Posts</p>
+            <p class="text-light text-center">10</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 border border-light">
+            <p class="text-primary2 text-center pt-2 mb-0">Total Upvotes</p>
+            <p class="text-light text-center">22</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 border border-light">
+            <p class="text-primary2 text-center pt-2 mb-0">Date Joined</p>
+            <p class="text-light text-center">2018-10-02</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 border border-light">
+            <p class="text-primary2 text-center pt-2 mb-0">Posts Viewed</p>
+            <p class="text-light text-center">144</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 border border-light">
+            <p class="text-primary2 text-center pt-2 mb-0">Email</p>
+            <p class="text-light text-center">hazra@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div class="bg-light" style="height: 1000px;"></div>
 
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"
     ></script>
     <script
@@ -235,5 +315,63 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $("body").scrollspy({ target: "#main-nav" });
+
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+
+      // Configure Slider
+      $(".carousel").carousel({
+        interval: 6000,
+        pause: "hover"
+      });
+
+      // Lightbox Init
+      $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      // Video Play
+      $(function() {
+        // Auto play modal video
+        $(".video").click(function() {
+          var theModal = $(this).data("target"),
+            videoSRC = $(this).attr("data-video"),
+            videoSRCauto =
+              videoSRC +
+              "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+          $(theModal + " iframe").attr("src", videoSRCauto);
+          $(theModal + " button.close").click(function() {
+            $(theModal + " iframe").attr("src", videoSRC);
+          });
+        });
+      });
+
+      // Add smooth scrolling
+      $("#main-nav a").on("click", function(e) {
+        // Check for a hash value
+        if (this.hash !== "") {
+          // Prevent default behavior
+          e.preventDefault();
+
+          // Store hash
+          const hash = this.hash;
+
+          // Animate smooth scroll
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            900,
+            function() {
+              // Add hash to URL after scroll
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+    </script>
   </body>
 </html>
