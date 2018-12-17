@@ -157,13 +157,59 @@
   background: white;
   text-align: center;
 }
+.projects.active:before {
+  content: "Projects";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  text-align: center;
+}
+.tutorials.active:before {
+  content: "Tutorials";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  text-align: center;
+}
 
 .active:before {
-  padding-top: 30%;
+  padding-top: 20%;
+}
+
+@media (max-width: 1300.5px) {
+  .active:before {
+    padding-top: 18%;
+  }
+}
+@media (max-width: 100.5px) {
+  .active:before {
+    padding-top: 23%;
+  }
 }
 
 @media (max-width: 767.5px) {
   .active:before {
-    padding-top: 17%;
+    padding-top: 16%;
+  }
+}
+
+.replImage {
+  height: 37%;
+}
+
+@media (max-height: 500px) {
+  .replImage {
+    height: 50%;
+  }
+}
+@media (max-height: 300px) {
+  .replImage {
+    height: 80%;
   }
 }

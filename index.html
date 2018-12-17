@@ -22,19 +22,18 @@
     <header>
       <div class="mb-0 no-gutters py-0 jumbotron jumbotron-fluid bg-light">
         <div class="row no-gutters">
-          <div class="col-2 no-gutters py-xs-0 ">
+          <div class="col-md-2 col no-gutters py-xs-0 ">
             <div class="mx-auto mt-1">
               <img
                 src="logoMe.png"
                 class="img-fluid ml-0 ml-md-1 ml-lg-4 ml-xl-5"
                 alt="Logo"
               />
-              <h5 class="d-md-none mb-0 ml-5 text-primary1 mt-2 p-0">Web</h5>
-              <h5 class="d-md-none mb-0 ml-3 text-primary1 p-0">Programming</h5>
+              
             </div>
           </div>
 
-          <div class="col-10 py-0 no-gutters">
+          <div class="col-md-10 py-0 no-gutters col-12">
             <div class="bg-light py-0 d-none my-3 d-md-block">
               <p class="display-5 my-2 mb-3 text-dark ml-4 ">
                 Visit <span class="mx-4 mr-3">|</span>
@@ -52,12 +51,13 @@
                 >
               </p>
             </div>
-            <div class="float-md-none float-right">
+            <div class="float-md-none">
               <nav
                 class="navbar sticky-top navbar-expand-md navbar-dark bg-primary1 border-left border-dark"
               >
                 <div class="container">
-                  <a href="" class="navbar-brand d-md-none">Menu</a>
+                  <a href="" class="navbar-brand d-md-none">
+                    Menu</a>
                   <button
                     class="navbar-toggler"
                     data-toggle="collapse"
@@ -84,11 +84,9 @@
                       </li>
                     </ul>
                     <ul class="navbar-nav ml-auto">
+                      
                       <li class="nav-item">
-                        <a href="#" class="nav-link">Register</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link">Log In</a>
+                        <a href="#" class="nav-link">Log Out</a>
                       </li>
                     </ul>
                   </div>
@@ -102,7 +100,7 @@
 
     <div class="pb-1 bg-primary2">
       <div class="container py-3 ml-1 ml-md-2 ml-lg-3 ml-xl-4">
-        <h1 class="display-5 ">Web Programming</h1>
+        <h3 class="display-5">Web Programming</h3>
       </div>
     </div>
 
@@ -127,13 +125,15 @@
           <li
             class="nav-item parent bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4"
           >
-            <a href="#" class="nav-link text-dark">Q/A</a>
+            <a href="#projects" class="nav-link text-dark projects">Projects</a>
           </li>
           <div class="mx-xl-5 mx-lg-4 mx-md-3 mx-sm-2 mx-none"></div>
           <li
             class="nav-item  parent bg-primary3 py-1 px-1 px-md-2 px-lg-3 px-xl-4"
           >
-            <a href="#" class="nav-link text-dark">Tutorials</a>
+            <a href="#tutorials" class="nav-link text-dark tutorials"
+              >Tutorials</a
+            >
           </li>
           <div class="mx-xl-5 mx-lg-4 mx-md-3 mx-sm-2 mx-none"></div>
           <li
@@ -173,22 +173,22 @@
             <tr>
               <td scope="row">Monday 17 December</td>
               <td class="text-success2">12</td>
-              <td class="text-success2">All checked</td>
+              <td class="text-success2">All Read</td>
             </tr>
             <tr class="bg-table">
               <td>Tuesday 18 December</td>
               <td class="text-success2">20</td>
-              <td class="text-success2">All checked</td>
+              <td class="text-success2">All Read</td>
             </tr>
             <tr>
               <td>Wednesday 19 December</td>
               <td class="text-success2">10</td>
-              <td class="text-success2">All checked</td>
+              <td class="text-success2">All Read</td>
             </tr>
             <tr class="bg-primary1">
               <td class="text-light"><span class="dotted2">Today </span></td>
               <td class="text-primary2">3</td>
-              <td class="text-primary2">All checked</td>
+              <td class="text-primary2">All Read</td>
             </tr>
           </tbody>
         </table>
@@ -200,28 +200,29 @@
       <div class="bg-light" style="height: 60px;"></div>
 
       <div class="container pl-0">
-        <p class="font-weight-bold">Code together as a team</p>
+        <p class="font-weight-bold">Code together</p>
       </div>
 
       <div class="container bg-primary2 px-sm-2 px-0">
         <div class="row">
-          <div class="col-md-6 col-12 " style="height: 35%;">
+          <div class="col-md-6 col-12 replImage">
             <a href="https://repl.it/languages/html"
               ><img
                 class="py-sm-2 py-0"
                 height="100%"
                 width="100%"
-                src="repl.png"
+                src="http://pm1.narvii.com/6717/89e3344c9d809a2834c813dd24b225e050a6054a_00.jpg"
                 alt=""
             /></a>
           </div>
-          <div class="col-md-6 col-12 pt-3 px-md-0 px-4 ">
-            <h2 class="Display-5 pr-4">Create projects in group</h2>
-            <p class="font-weight-light pr-5 mb-0">
-              Repl.it offers real-time code collaboration feature.
+          <div class="col-md-6 col-12 pt-3 px-md-0 px-4 pb-3">
+            <h2 class="Display-5 pr-4">Create Projects In Group</h2>
+            <p class="h6 font-weight-light pr-5 mb-1">
+              Repl.it offers real-time code collaboration feature. Code and chat
+              with friends in realtime!
             </p>
-            <p class="font-weight-light pr-5 ">
-              Code and chat with friends in realtime
+            <p class="h6 font-weight-light pr-5 mb-3">
+              Create amazing projects and share your repls with everyone here.
             </p>
             <a
               href="#"
@@ -256,6 +257,187 @@
       </div>
     </section>
     <br />
+
+    <section id="projects">
+      <div class="bg-light" style="height: 60px;"></div>
+
+      <div class="container pl-0">
+        <p class="font-weight-bold">Featured Projects</p>
+      </div>
+
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+              <div class="card text-white">
+                  <img
+                    class="card-img"
+                    height="300px"
+                    width="200px"
+                    src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt=""
+                  />
+                  <div class="card-img-overlay">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                          is a little bit longer.</p>
+                      <p class="card-text">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                  </div>
+              </div>
+
+              
+          </div>
+          <div class="col-lg-6">
+          <div class="row no-gutters">
+              <div class="col-6">
+                  <div class="card text-white">
+                      <img
+                        class="card-img"
+                        height="150px"
+                    width="100%"
+                        src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt=""
+                      />
+                      <div class="card-img-overlay">
+                          <h4 class="card-title">Card title</h4>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                              is a little bit longer.</p>
+                          <p class="card-text">
+                              <small class="text-muted">Last updated 3 mins ago</small>
+                          </p>
+                      </div>
+                  </div></div>
+              <div class="col-6"><div class="card text-white">
+                  <img
+                    class="card-img"
+                    height="150px"
+                    width="100%"
+                    src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt=""
+                  />
+                  <div class="card-img-overlay">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                          is a little bit longer.</p>
+                      <p class="card-text">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                  </div>
+              </div></div>
+              <div class="col-6"><div class="card text-white">
+                  <img
+                    class="card-img"
+                    height="150px"
+                    width="100%"
+                    src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt=""
+                  />
+                  <div class="card-img-overlay">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                          is a little bit longer.</p>
+                      <p class="card-text">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                  </div>
+              </div></div>
+              <div class="col-6"><div class="card text-white">
+                  <img
+                    class="card-img"
+                    height="150px"
+                    width="100%"
+                    src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt=""
+                  />
+                  <div class="card-img-overlay">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                          is a little bit longer.</p>
+                      <p class="card-text">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                  </div>
+              </div></div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="tutorials">
+      <div class="bg-light" style="height: 60px;"></div>
+      <div class="container pl-0">
+        <p class="font-weight-bold">Tutorials</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 mb-3">
+            <div class="card bg-primary2">
+              <img
+                class="card-img-top"
+                height="300px"
+                width="200px"
+                src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">HTML Fundamentals</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Illo, quas.
+                </p>
+                <a class="btn bg-primary1 text-white btn-block" href="#"
+                  >Learn More</a
+                >
+              </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card bg-primary2">
+            <img
+              class="card-img-top"
+              height="300px"
+              width="200px"
+              src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
+            <div class="card-body">
+              <h4 class="card-title">CSS Fundamentals</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                quas.
+              </p>
+              <a class="btn bg-primary1 text-white btn-block" href="#"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card bg-primary2">
+            <img
+              class="card-img-top"
+              height="300px"
+              width="200px"
+              src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt=""
+            />
+            <div class="card-body">
+              <h4 class="card-title">JavaScript Tutorial</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                quas.
+              </p>
+              <a class="btn bg-primary1 text-white btn-block" href="#"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="info">
       <div class="bg-light" style="height: 60px;"></div>
@@ -297,8 +479,9 @@
         </div>
       </div>
     </section>
+    
 
-    <div class="bg-light" style="height: 1000px;"></div>
+    <div class="bg-light" style="height: 400px;"></div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
