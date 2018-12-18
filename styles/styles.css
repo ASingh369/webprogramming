@@ -5,13 +5,13 @@
   background-color: #02894e;
 }
 .bg-primary2 {
-  background-color: #00ecb9;
+  background-color: #00ff87;
 }
 .text-primary1 {
   color: #38003c;
 }
 .text-primary2 {
-  color: #00ecb9;
+  color: #00ff87;
 }
 
 .text-success2 {
@@ -119,7 +119,7 @@
 }*/
 
 .parent {
-  background: #00816a;
+  background: #02894e;
   position: relative;
 }
 .active li {
@@ -211,5 +211,23 @@
 @media (max-height: 300px) {
   .replImage {
     height: 80%;
+  }
+}
+
+.height {
+  height: 60%;
+}
+
+.height2 {
+  height: 30%;
+}
+
+@media (max-width: 500.5px) {
+  .height {
+    height: 50%;
+  }
+
+  .height2 {
+    height: 25%;
   }
 }
